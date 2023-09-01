@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.promo-img {
+    opacity: 0.5;
+}
+
+.promo-main {
+    background-color: black;
+    position: relative;
+}
+
+.promo {
+    min-height: 80vh;
+}
+
+.indicators {
+    position: absolute;
+}
+
+.promo-details {
+    position: absolute;
+    min-height: 80vh;
+}
+
+.main-promo-heading {
+    font-size: 38px;
+    font-family: "Lobster";
+    font-weight: 400;
+}
+
+.nav-section {
+    background-color: #a49e9e;
+
+}
+
+.main-promo-descirption {
+    font-size: 24px;
+    font-family: "Bree Serif";
+    font-weight: 400;
+}
+
+.promo-btn {
+    font-size: 18px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+
+#Book-a-tables-section,
+#contact-section,
+#blog-section {
+    background-color: black;
+}
+
+
+.out-story-container {
+    min-height: 80vh;
+    position: relative;
+}
+
+.our-story-img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.our-story-details {
+    position: absolute;
+    min-height: 60vh;
+
+}
+
+.our-story-details-text {
+    font-size: 18px;
+    color: black;
+}
+
+.nav-conatact-section {
+    background-color: transparent;
+
+}
+
+.section-heading {
+    font-size: 48px;
+    color: red;
+    font-family: 'Dancing-Script', Caveat;
+    font-weight: 500;
+}
+
+
+.icon {
+    color: #ffffff;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.icon:hover {
+    color: red;
+    cursor: pointer;
+
+}
+
+
+.offer-details-card {
+    position: absolute;
+    background-color: #ffffff;
+    left: 70%;
+    top: 30%;
+    padding: 50px;
+}
+
+.offer-heading {
+    font-size: 34px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.offer-description {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.promo-ordre-now-btn {
+    color: red;
+    border: 2px solid red;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.offers-item-img {
+    height: 80%;
+}
+
+
+.book-a-table-btn {
+    color: #ffffff;
+    border: none;
+    font-size: 10px;
+    background-color: red;
+}
+
+.promo-imag-1 {
+    background-image: url('https://res.cloudinary.com/dspbnevuo/image/upload/v1693407203/promo_slide_1_y9k6ba.jpg');
+}
+
+.main-logo {
+    width: 120px;
+    height: 60px;
+
+}
+
+hr {
+    color: red;
+}
+
+.section-btns {
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+}
+
+.nav-bar-line {
+    border: none;
+    border-top: 1px solid #d0c7c7;
+}
+
+
+
+.Book-a-tables-section-container {
+    background-color: #49494a;
+    background-image: url('https://res.cloudinary.com/dspbnevuo/image/upload/v1693407204/promo_slide_2_foqpgw.jpg');
+    opacity: 0.2;
+    background-size: cover;
+    min-height: 80vh;
+    position: relative;
+}
+
+.Book-a-tables-section-text-container {
+    position: absolute;
+    min-height: 80vh;
+}
+
+.Book-a-tables-section-btn {
+    font-size: 18px;
+    color: red;
+    background-color: #ffffff;
+    border-radius: 0px;
+}
+
+.Book-a-tables-section-heading {
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 500;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.our-chefs-sectio-container {
+    min-height: 80vh;
+}
+
+
+.red-separoter-imag {
+    max-width: 25%;
+    height: 30px;
+}
+
+.our-chefs-section-chef-card {
+    max-width: 20%;
+    margin-right: 10px;
+}
+
+
+
+.our-chefs-section-chef-name {
+    font-size: 16px;
+    color: #424242;
+    font-weight: 500;
+}
+
+.our-chefs-section-chef-details {
+    font-size: 16px;
+    color: #424242;
+    font-weight: normal;
+}
+
+
+
+.blog-section-container {
+    min-height: 80vh;
+    background-image: url('https://res.cloudinary.com/dspbnevuo/image/upload/v1693407204/promo_slide_3_c6kdtp.jpg');
+    opacity: 0.2;
+    background-size: cover;
+    position: relative;
+}
+
+.blogs {
+    position: absolute;
+    min-height: 80vh;
+    transition: all 10s;
+}
+
+
+.blog-section-card {
+    width: 33%;
+    text-align: center;
+
+}
+
+.blog-section-card-heading {
+    font-size: 16px;
+    color: #2f2f2f;
+    font-weight: 500;
+}
+
+.blog-section-card-line {
+    border: none;
+    border-top: 2px solid red;
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+.blog-section-card-description {
+    font-size: 14px;
+    color: #2f2f2f;
+}
+
+.blog-section-crad-img {
+    width: 100%;
+}
+
+.blog-section-card-details-container {
+    background-color: #ffffff;
+}
+
+
+.gallery-section-container {
+    min-height: 50vh;
+
+}
+
+.contact-section-container {
+    background-color: #49494a;
+    background-image: url('https://res.cloudinary.com/dspbnevuo/image/upload/v1693407227/Footer_background_uk9xyu.png');
+    opacity: 0.4;
+    background-size: cover;
+    min-height: 80vh;
+    position: relative;
+}
+
+.contact-section-details-container {
+    position: absolute;
+    min-height: 80vh;
+}
+
+.address {
+    font-size: 18px;
+    color: #ffffff;
+
+}
+
+
+.contact-details {
+    font-size: 18px;
+    color: red;
+}
+
+.menus-button {
+    color: black;
+    border: 1px solid black;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.menus-button:hover {
+    background-color: red;
+    color: #ffffff;
+}
+
+.item {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 0px #444444;
+    margin: 20px;
+}
+
+.item-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-right: 30px;
+}
+
+
+.price {
+    font-size: 18px;
+    color: red;
+}
+
+.item-heading {
+    font-size: 22px;
+    color: black;
+    font-family: "Roboto";
+}
+
+.ingredients {
+    width: 70%;
+    flex-wrap: wrap;
+}
